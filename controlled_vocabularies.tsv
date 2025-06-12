@@ -1,0 +1,10 @@
+term_id	field	term	definition
+BOLD:CV:IDM1	identification_method	BIN based	Relies on assignment of the sequence to a BIN, permitting comparison with other records putatively belonging to the same taxon. May be informed by images, localities, identifications, or other details associated with records in the BIN.
+BOLD:CV:IDM2	identification_method	BOLD ID Engine	Uses the BOLD Identification Engine to compare query sequences against BOLD's reference library.
+BOLD:CV:IDM3	identification_method	Tree based	Employs phylogenetic trees to infer relationships between query and reference sequences, identifying the query's taxonomy from tree structure.
+BOLD:CV:IDM4	identification_method	Morphology	Uses phenotypic characters to identify specimens. Morphological identification requires expertise in taxonomy.
+BOLD:CV:IDM5	identification_method	Morphology and sequence based	Relies on a combination of morphology and sequence data.
+BOLD:CV:IDM6	identification_method	Image based	Relies on visual comparison of specimen images to those of known species, typically using image databases or machine learning models.
+BOLD:CV:IDM7	identification_method	Image and sequence based	Relies on a combination of images and sequence data.
+BOLD:CV:IDM8	identification_method	Other sequence based approach	Any other identification method or analytical tool that relies on sequence data to obtain an identification (e.g. NCBI BLAST, SINTAX, RDP Classifier).
+BOLD:CV:IDM9	identification_method	Other	Any other identification method.
